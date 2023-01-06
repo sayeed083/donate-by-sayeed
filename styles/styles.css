@@ -220,3 +220,69 @@ margin-top: 20px;
     background: red;
     margin: 50px 50px;
 }
+.donation-3{
+    height: 400px;
+    width: 800px;
+
+}
+.update{
+    font-weight: 800;
+    font-size: 65px;
+    text-align: center;
+}
+.udp{
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: silver;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contain{
+background-color: #ffeeee;
+height: 300px;
+width: 1200px;
+border: 0;
+/* padding: 25px 20px 20px; */
+margin-bottom: 200px;
+border-radius: 5px; 
+}
+input{
+    height: 55px;
+    width: 500px;
+    border: 0;
+    margin: 0 0 0 95px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.btn1{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    border: 0;
+    height: 55px;
+    width: 300px;
+    border-radius: 5px;
+    background: red;
+    margin: 50px 50px 50px 0px;
+}
+.foot{
+    background-color: #0b0d17;
+    height: 250px;
+    text-align: center;
+}
+.be{
+font-size: 65px;
+font-weight: 800;
+font-family: 'Times New Roman', Times, serif;
+color: #ff5959;
+margin-bottom: 50px;
+padding-top: 50px;
+}
+
+.do{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffeeee;
+}
