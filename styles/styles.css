@@ -14,28 +14,40 @@
    background-position: right  top ;
    background-size: 1900px;
 } */
+
+/* Header part */
 header{
-    background-image: url(/images/donation7.jpg);
+    /* background-image: url(/images/donation7.jpg); */
+/* background-size: 2000px 900px; */
+
     height: 800px;
     width: 1920px;
+/* margin-left: 100px; */
+/* margin-right: 20px; */
+    /* background-repeat: no-repeat; */
+}
+.header1{
+    background-image: url(/images/donation7.jpg);
+    height: 800px;
+    width: 3000px;
 }
 .header-title{
     font-weight: 900;
     font-size: 80px;
-    margin: 0 450px;
+    margin: 0 550px;
     color: white;
     padding-top: 210px;
 }
 .header-title1{
     font-weight: 900;
     font-size: 80px;
-    margin: 0 650px;
+    margin: 0 750px;
     color: white;
 }
 .header-sub-title{
     font-weight: 400;
     font-size: 20px;
-    margin: 20px 550px 0;
+    margin: 40px 650px 0;
     color: whitesmoke;
     
 }
@@ -48,5 +60,163 @@ header{
     height: 64px;
     border-radius: 5px;
     background: red;
-    margin: 30px 800px;
+    margin: 100px 950px;
+}
+/* Here Comes main part */
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 130px;
+}
+.donate-t-title{
+    font-weight: 800;
+    font-size: 65px;
+    margin: 0 350px;
+}
+.donate-t-sub-title{
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0px 200px;
+    color: silver;
+    text-align: center;
+}
+.taka{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.takar-hisab{
+    background-color: gainsboro;
+  
+    width: 100px;
+    border: 0;
+    padding: 60px;
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    border-radius: 5px; 
+}
+.dilam{
+    color: brown;
+    border: 10px 150px;
+    border-radius: 5px;
+}
+.other{
+    font-weight: 600;
+    font-size: 35px;
+    color: silver;
+    margin: 0 400px;
+    margin-top: 50px;
+}
+.btn-primary1{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: red;
+    margin: 50px 500px;
+}
+
+.donate-plan-title{
+    font-weight: 800;
+    font-size: 65px;
+    margin: 0 340px;
+}
+.donate-plan-sub-title{
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0px 200px;
+    color: silver;
+    text-align: center;
+}
+
+.our-main-work{
+    display: flex;
+    margin-top: 50px;
+    margin-right: 0px;
+    
+    }
+    .our-works{
+        background-color: #edf5f6;
+      height: 350px;
+        width: 1500px;
+        border: 0;
+        /* padding: 60px; */
+        padding: 20px 20px 20px;
+        margin: 20px;
+        font-size: 40px;
+        font-weight: 900;
+        border-radius: 5px; 
+        margin-bottom: 10px;
+    }
+
+    .our-works1{
+        background-color: #ffeeee;
+        height: 350px;
+        width: 1500px;
+        border: 0;
+        /* padding: 60px; */
+        padding: 20px 20px 20px;
+        margin: 20px;
+        font-size: 40px;
+        font-weight: 900;
+        border-radius: 5px; 
+        margin-bottom: 10px;
+    }
+
+    .our-works2{
+        background-color: #fff4d6;
+        height: 350px;
+        width: 1500px;
+        border: 0;
+        /* padding:  0 60px; */
+        padding: 20px 20px 20px;
+        margin: 20px;
+        font-size: 40px;
+        font-weight: 900;
+        border-radius: 5px; 
+        margin-bottom: 10px;
+    }
+
+.our-goal{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.our-goal-title{
+font-size: 20px;
+font-weight: 400;
+text-align: justify;
+margin-top: 20px;
+}
+
+
+.image-sec{
+    display: flex;
+}
+
+.live-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.live-title-sub{
+    font-weight: 400;
+    font-size: 20px;
+}
+.btn{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    border: 0;
+    padding: 18px 35px;
+    height: 95px;
+    width: 500px;
+    border-radius: 5px;
+    background: red;
+    margin: 50px 50px;
 }
